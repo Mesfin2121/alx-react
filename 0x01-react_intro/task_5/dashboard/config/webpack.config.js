@@ -11,9 +11,12 @@ module.exports = {
   },
   devServer: {
     hot: true,
-    contentBase: path.resolve('./dist'),
+      contentBase: path.resolve('./dist'),
+    // static: {
+    //   directory: path.join(__dirname, "./dist")
+    // },
     compress: true,
-    port: 8564,
+    port: 3000,
   },
   performance: {
     maxAssetSize: 1000000,
