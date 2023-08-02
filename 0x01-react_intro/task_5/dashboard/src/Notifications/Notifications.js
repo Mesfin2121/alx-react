@@ -1,7 +1,7 @@
 import React from 'react';
 import './Notifications.css';
-import icon from './close-icon.png';
-import { getLatestNotification } from './utils';
+import icon from '../assets/close-icon.png';
+import { getLatestNotification } from '../utils/utils';
 
 function Notifications() {
   return (
@@ -22,7 +22,7 @@ function Notifications() {
           src={icon}
           alt='Close'
           styles={{
-            width: '1rem',
+            width: '2em',
             height: '0.1rem',
           }}
         />
